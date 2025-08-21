@@ -9,19 +9,18 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="flex flex-col min-h-screen bg-light-bg dark:bg-dark-bg">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <motion.main
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
-        className="flex-grow container mx-auto px-6 py-8"
+        className="flex-grow"
       >
         {children}
       </motion.main>
       <Footer />
-      {/* The AI Chatbot will be added here later so it's outside the main content flow */}
     </div>
   );
 };

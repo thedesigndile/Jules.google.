@@ -1,12 +1,10 @@
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-
-// Placeholders for components to be created
-// import OurStory from '@/components/OurStory';
-// import MissionVision from '@/components/MissionVision';
-// import Timeline from '@/components/Timeline';
-// import TeamGrid from '@/components/TeamGrid';
+import Timeline from '@/components/Timeline';
+import DesignPhilosophy from '@/components/DesignPhilosophy';
+import TeamCard from '@/components/TeamCard';
+import team from '@/data/team.json';
 
 const AboutPage = () => {
   return (
@@ -16,38 +14,34 @@ const AboutPage = () => {
         <meta name="description" content="Learn about the story, mission, and talented team behind Design Dile." />
       </Head>
 
-      {/* Hero Banner for About Page */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-center py-20 bg-gray-100 dark:bg-gray-800 rounded-lg"
+        className="text-center py-20 bg-light-bg dark:bg-dark-bg"
       >
-        <h1 className="text-4xl md:text-5xl font-bold font-serif text-light-text dark:text-dark-text">We Are The Storytellers' Best Friend</h1>
-        <p className="mt-4 text-lg max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
-          At Design Dile, we believe every great book deserves a great design.
+        <h1 className="text-5xl md:text-6xl font-serif font-bold text-light-text dark:text-dark-text">
+          We believe design is storytelling.
+        </h1>
+        <p className="mt-4 text-lg max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
+          Our journey is one of passion for the written word and the art that brings it to life.
         </p>
       </motion.section>
 
-      {/* Placeholder for OurStory section */}
-      <div className="py-20">
-        <h2 className="text-3xl font-bold text-center mb-12">Our Story Placeholder</h2>
-      </div>
+      <Timeline />
 
-      {/* Placeholder for Mission/Vision section */}
-      <div className="py-20 bg-gray-100 dark:bg-gray-800">
-        <h2 className="text-3xl font-bold text-center mb-12">Mission/Vision Placeholder</h2>
-      </div>
+      <DesignPhilosophy />
 
-      {/* Placeholder for Timeline section */}
-      <div className="py-20">
-        <h2 className="text-3xl font-bold text-center mb-12">Timeline Placeholder</h2>
-      </div>
-
-      {/* Placeholder for TeamGrid section */}
-      <div className="py-20 bg-gray-100 dark:bg-gray-800">
-        <h2 className="text-3xl font-bold text-center mb-12">Our Team Placeholder</h2>
-      </div>
+      <section className="py-20">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-4xl font-serif mb-16">Meet the Artisans</h2>
+          <div className="grid md:grid-cols-3 gap-12">
+            {team.map(member => (
+              <TeamCard key={member.id} member={member} />
+            ))}
+          </div>
+        </div>
+      </section>
 
     </Layout>
   );

@@ -1,30 +1,34 @@
 import type { Config } from 'tailwindcss';
+import { fontFamily } from 'tailwindcss/defaultTheme';
 
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  darkMode: 'class', // Enable dark mode using a class
+  darkMode: 'class',
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
-        primary: '#1a202c',
-        secondary: '#2d3748',
-        accent: '#4a5568',
-        'light-bg': '#f7fafc',
+        'light-bg': '#f8f7f4',
         'light-text': '#1a202c',
-        'dark-bg': '#1a202c',
-        'dark-text': '#f7fafc',
+        'dark-bg': '#0a192f',
+        'dark-text': '#e6f1ff',
+        'accent-light': '#4f46e5', // Indigo
+        'accent-dark': '#facc15',  // Gold
+      },
+      fontFamily: {
+        sans: ['var(--font-lora)', ...fontFamily.sans],
+        serif: ['var(--font-playfair)', ...fontFamily.serif],
       },
       animation: {
-        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'float': 'float 6s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(-2%)' },
+          '50%': { transform: 'translateY(2%)' },
+        }
       }
     },
   },

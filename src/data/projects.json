@@ -1,44 +1,38 @@
 [
   {
     "id": 1,
-    "title": "The Alchemist's Secret",
-    "category": "Book Covers",
-    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
-    "description": "A mysterious and enchanting cover design for a fantasy novel. The design uses dark tones and intricate details to evoke a sense of magic and discovery."
+    "title": "The Silent Forest",
+    "description": "A hauntingly beautiful cover for a mystery novel.",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800"
   },
   {
     "id": 2,
-    "title": "Modernist Architecture",
-    "category": "Layouts",
-    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
-    "description": "A clean and minimalist layout for an architecture coffee table book. The design emphasizes typography and white space to let the photography shine."
+    "title": "Architectural Digest",
+    "description": "Clean, minimalist layout for a modern design magazine.",
+    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=800"
   },
   {
     "id": 3,
-    "title": "A Culinary Journey",
-    "category": "Layouts",
-    "imageUrl": "https://images.unsplash.com/photo-1542826438-c32144d126b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
-    "description": "A vibrant and engaging layout for a cookbook. The design uses a playful color palette and handwritten fonts to create a warm and inviting feel."
+    "title": "The Chef's Table",
+    "description": "A vibrant and delicious design for a new cookbook.",
+    "imageUrl": "https://images.unsplash.com/photo-1542826438-c32144d126b4?q=80&w=800"
   },
   {
     "id": 4,
-    "title": "Echoes of the Future",
-    "category": "Book Covers",
-    "imageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
-    "description": "A futuristic and thought-provoking cover design for a science fiction novel. The design features abstract shapes and a neon color scheme."
+    "title": "Future Worlds",
+    "description": "A sci-fi cover that sparks the imagination.",
+    "imageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=800"
   },
   {
     "id": 5,
-    "title": "The Art of Minimalism",
-    "category": "Book Covers",
-    "imageUrl": "https://images.unsplash.com/photo-1495640452828-3df6795cf6da?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
-    "description": "A simple yet powerful cover design that embodies the principles of minimalism. The design uses a single focal point and a limited color palette."
+    "title": "On Minimalism",
+    "description": "A simple, powerful design for a book about less.",
+    "imageUrl": "https://images.unsplash.com/photo-1495640452828-3df6795cf6da?q=80&w=800"
   },
   {
     "id": 6,
-    "title": "Historical Atlas",
-    "category": "Layouts",
-    "imageUrl": "https://images.unsplash.com/photo-1583472289920-b49303a83a5c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
-    "description": "A detailed and informative layout for a historical atlas. The design uses classic typography and cartographic elements to create an authoritative feel."
+    "title": "The Old Atlas",
+    "description": "A classic, authoritative design for a historical work.",
+    "imageUrl": "https://images.unsplash.com/photo-1583472289920-b49303a83a5c?q=80&w=800"
   }
 ]
