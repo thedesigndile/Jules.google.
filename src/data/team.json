@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Eleanor Vance",
+    "role": "Founder & Lead Designer",
+    "bio": "With over 15 years of experience in the publishing industry, Eleanor founded Design Dile with a passion for storytelling through art. Her work has graced the covers of numerous bestsellers.",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Thorne",
+    "role": "Art Director & Illustrator",
+    "bio": "Marcus is a master of illustration and visual narrative. He brings a unique artistic flair to every project, ensuring each design is not just seen, but felt.",
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200"
+  },
+  {
+    "id": 3,
+    "name": "Clara Bell",
+    "role": "Senior Layout Specialist",
+    "bio": "Clara is a typography enthusiast who believes that a book's interior is just as important as its cover. She meticulously crafts layouts that are a joy to read.",
+    "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200"
+  },
+  {
+    "id": 4,
+    "name": "Samuel Ortiz",
+    "role": "Project Manager",
+    "bio": "Sam is the organizational heart of the team. He ensures that every project runs smoothly, on time, and that our clients are happy from start to finish.",
+    "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200"
+  }
+]
