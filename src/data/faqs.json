@@ -1,0 +1,35 @@
+{
+  "faqs": [
+    {
+      "question": "What services do you offer?",
+      "keywords": ["services", "offer", "do", "design"],
+      "answer": "We offer a range of book design services, including custom cover design, interior layout and formatting, and bespoke illustrations. You can see a preview on our Home page or learn more on our About page."
+    },
+    {
+      "question": "How much does a book cover cost?",
+      "keywords": ["cost", "pricing", "price", "how much"],
+      "answer": "Our pricing varies depending on the complexity of the project. For a detailed quote, please get in touch via our Contact page with some details about your project, and we'll get back to you shortly!"
+    },
+    {
+      "question": "What is your design process?",
+      "keywords": ["process", "how", "work", "start"],
+      "answer": "Our process is highly collaborative! It starts with understanding your vision, moves to concept development and refinement, and ends with the final delivery of your beautiful book design. Our About page has a timeline that illustrates our journey."
+    },
+    {
+      "question": "How long does it take to design a cover?",
+      "keywords": ["how long", "timeline", "take", "time"],
+      "answer": "A typical book cover design takes between 2-4 weeks from initial concept to final files, depending on the complexity and feedback rounds. We can provide a more specific timeline once we discuss your project."
+    },
+    {
+      "question": "Can I see your portfolio?",
+      "keywords": ["portfolio", "work", "examples", "see"],
+      "answer": "Of course! You can view a selection of our favorite projects on our Portfolio page. We're very proud of the stories we've helped tell."
+    },
+    {
+      "question": "Who are you?",
+      "keywords": ["who", "about", "team", "you"],
+      "answer": "We are Design Dile, a passionate team of designers and illustrators dedicated to the art of book design. You can learn more about our story and meet the team on our About page."
+    }
+  ],
+  "default": "I'm sorry, I'm not sure how to answer that. For specific questions, please feel free to reach out to us through the Contact page. We'd be happy to help!"
+}

@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import AIChatbot from './AIChatbot'; // Import the chatbot
 import { motion } from 'framer-motion';
 
 interface LayoutProps {
@@ -21,6 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
         {children}
       </motion.main>
       <Footer />
+      <AIChatbot /> {/* Add the chatbot here */}
     </div>
   );
 };
